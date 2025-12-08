@@ -10,7 +10,9 @@ description: Final Project in MAE 3270
 
 Note: Bit is cut off where it would be interacting with the socket for analysis purposes  
 
-![Photo of CAD]({{ "/assets/images/CAD Model with Dimensions.jpg" | relative_url }})
+<img src="{{ '/assets/images/CAD Model with Dimensions.jpg' | relative_url }}" 
+     alt="CAD Model"
+     width="60%">
 
 ## Material of Choice and Important Characteristics  
 
