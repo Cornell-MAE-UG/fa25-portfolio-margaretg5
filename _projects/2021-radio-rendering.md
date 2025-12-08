@@ -1,8 +1,8 @@
 ---
 layout: project
-title: Radio CAD Rendering
+title: MAE 3270 Final Project
 description: Advanced CAD Project
-technologies: [Autodesk Fusion]
+technologies: [Autodesk Fusion, ANSYS]
 image: /assets/images/radio-machine-cad.jpg
 ---
 
