@@ -71,4 +71,4 @@ Using the strains from the FEM analysis at the strain gauge locations gives a se
 ## Strain Gauge Selection  
 
 
-Using a half bridge strain gauge with dimensions of 0.126 x 0.122in, which is a common form factor for general purpose strain gauges at the sensitivity needed. These dimensions fir easily onto the torque wrench so they are able to be used for this application.  
+Using a half bridge strain gauge with dimensions of 0.126 x 0.122in, which is a common form factor for general purpose strain gauges at the sensitivity needed. These dimensions fit easily onto the torque wrench so they are able to be used for this application.  
