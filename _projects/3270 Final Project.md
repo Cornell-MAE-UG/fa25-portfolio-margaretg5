@@ -3,10 +3,7 @@ layout: project
 title: MAE 3270 Final Project
 description: Final Project in MAE 3270
 ---
-<div style="margin-left:0; padding-left:0;">
 # Improved Torque Wrench Design and Analysis  
-</div>
-
 
 ## Images of CAD Model With Dimensions  
 
@@ -14,7 +11,7 @@ Note: Bit is cut off where it would be interacting with the socket for analysis 
 
 <img src="{{ '/assets/images/CAD Model with Dimensions.jpg' | relative_url }}" 
      alt="CAD Model"
-     width="100%">
+     width="120%">
 
 ## Material of Choice and Important Characteristics  
 
@@ -34,7 +31,7 @@ Setup to analyze a 600 in-lb torque on torque wrench with 0.4" of 0.5" bit insid
 
 <img src="{{ '/assets/images/Section3.jpg' | relative_url }}" 
      alt="CAD Model"
-     width="100%"> 
+     width="120%"> 
 
 ## FEM Normal Strain Contours  
 
@@ -42,7 +39,7 @@ Strain in the direction of the strain gauge. Strain gauge location probed
 
 <img src="{{ '/assets/images/Image4.jpg' | relative_url }}" 
      alt="CAD Model"
-     width="100%"> 
+     width="120%"> 
 
 ## FEM Maximum Principal Stress  
 
@@ -50,7 +47,7 @@ Maximum principal stress. Analyzed location on the body probed
 
 <img src="{{ '/assets/images/Image5.jpg' | relative_url }}" 
      alt="CAD Model"
-     width="100%"> 
+     width="120%"> 
    
 
 ## FEM Results Summary  
@@ -65,7 +62,7 @@ Maximum principal stress. Analyzed location on the body probed
 
 <img src="{{ '/assets/images/Image 6.jpg' | relative_url }}" 
      alt="CAD Model"
-     width="100%"> 
+     width="120%"> 
 
 ## Torque Wrench Sensitivity  
 
