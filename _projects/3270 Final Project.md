@@ -10,7 +10,7 @@ description: Final Project in MAE 3270
 
 Note: Bit is cut off where it would be interacting with the socket for analysis purposes  
 
-![Photo of CAD]({{ "/assets/images/CAD Model with Dimensions.jpg" | relative_url }}){: inline-image-l}  
+![Photo of CAD]({{ "/assets/images/CAD Model with Dimensions.jpg" | relative_url }})
 
 ## Material of Choice and Important Characteristics  
 
@@ -47,7 +47,7 @@ Maximum principal stress. Analyzed location on the body probed
 | ----------- | ----------- | ----------- | ----------- | 
 | 33043 psi | 1.9E5 psi |0.387 in | 1214 microStrain |  
   
-  
+
 #### Load Point Deflection:  
 
 ![Section 7]({{ "/assets/images/Image 6.jpg" | relative_url }}){: .inline-image-l}  
