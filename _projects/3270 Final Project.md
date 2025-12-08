@@ -3,7 +3,7 @@ layout: project
 title: MAE 3270 Final Project
 description: Final Project in MAE 3270
 ---
-#Improved Torque Wrench Design and Analysis.  
+# Improved Torque Wrench Design and Analysis.  
 
 
 ## Images of CAD Model With Dimensions  
@@ -21,6 +21,7 @@ AISI S7 Tool Steel Tempered at 650 degrees C
 | Youngs Modulus  | Yield strength | Fracture Toughness | Fracture Strength (10^6 Cycles) |
 | ----------- | ----------- | ----------- | ----------- |
 | 329*10^6 psi| 154 ksi     | 30 ksi      | 60 ksi      |  
+  
 
 ## FEM Loads and Boundary Conditions  
 
@@ -45,7 +46,8 @@ Maximum principal stress. Analyzed location on the body probed
 |Maximum Normal Stress (on wrench body)   | Maximum normal stress (On bit, due to stress concentration at boundary condition)        | Load Point Deflection   | Strain at strain gauge location      |
 | ----------- | ----------- | ----------- | ----------- | 
 | 33043 psi | 1.9E5 psi |0.387 in | 1214 microStrain |  
-
+  
+  
 #### Load Point Deflection:  
 
 ![Section 7]({{ "/assets/images/Image 6.jpg" | relative_url }}){: .inline-image-l}  
