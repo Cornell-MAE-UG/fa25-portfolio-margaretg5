@@ -27,19 +27,19 @@ AISI S7 Tool Steel Tempered at 650 degrees C
 
 Setup to analyze a 600 in-lb torque on torque wrench with 0.4" of 0.5" bit inside of the socket at the end  
 
-![Section 3]({{ "/assets/images/Section3.jpg" | relative_url }}){: .inline-image-l}  
+![Section 3]({{ "/assets/images/Section3.jpg" | relative_url }})  
 
 ## FEM Normal Strain Contours  
 
 Strain in the direction of the strain gauge. Strain gauge location probed  
 
-![Section 4]({{ "/assets/images/Image4.jpg" | relative_url }}){: .inline-image-l}  
+![Section 4]({{ "/assets/images/Image4.jpg" | relative_url }})  
 
 ## FEM Maximum Principal Stress  
 
 Maximum principal stress. Analyzed location on the body probed  
 
-![Section 5]({{ "/assets/images/Image5.jpg" | relative_url }}){: .inline-image-l}  
+![Section 5]({{ "/assets/images/Image5.jpg" | relative_url }})    
 
 ## FEM Results Summary  
 
@@ -50,7 +50,7 @@ Maximum principal stress. Analyzed location on the body probed
 
 #### Load Point Deflection:  
 
-![Section 7]({{ "/assets/images/Image 6.jpg" | relative_url }}){: .inline-image-l}  
+![Section 7]({{ "/assets/images/Image 6.jpg" | relative_url }})  
 
 ## Torque Wrench Sensitivity  
 
