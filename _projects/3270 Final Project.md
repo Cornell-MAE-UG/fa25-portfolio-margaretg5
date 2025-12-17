@@ -2,7 +2,7 @@
 layout: project
 title: MAE 3270 Final Project
 description: Final Project in MAE 3270
-image: /assets/images/assets/images/image 6.jpg
+image: /assets/images/image 6.jpg
 ---
 # Improved Torque Wrench Design and Analysis  
 

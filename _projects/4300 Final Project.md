@@ -2,7 +2,7 @@
 layout: project
 title: MAE 4300 Final Write Up
 description: Final Report in MAE 4300
-image: /assets/images/assets/images/boeing-737-max-7-tailcone.jpg
+image: /assets/images/737.jpg
 ---
 ## Ethical Analysis of the Boeing 737 MAX Crashes  
 
