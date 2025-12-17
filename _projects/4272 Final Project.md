@@ -6,21 +6,19 @@ image: /assets/images/blades.png
 ---
 ## Wind Turbine Blade Design Project
 
-This project involved the design of a small-scale wind turbine blade intended to outperform a baseline turbine analyzed earlier in the course while meeting strict geometric, structural, and operational constraints. The blade length was limited to less than 6 inches, with a maximum allowable operating speed of 2000 RPM and testing restricted to wind speeds below 10 m/s. The design was optimized for a target operating condition of approximately 800 RPM at a wind speed of 5.95 m/s and evaluated under a realistic wind environment modeled by a Weibull distribution.The primary objective was to increase aerodynamic efficiency and power output relative to the Lab 4 turbine, which previously produced a maximum power of approximately 0.09 W at 6.5 m/s.
+This project involved the design of a wind turbine blade intended to improve the power output and aerodynamic efficiency of a NACA 4412 airfoil analyzed earlier in the course. 
 
 ### Project Overview
-
-The design process used blade element momentum (BEM) theory to determine an optimal blade geometry. A three-bladed rotor using a NACA 4412 airfoil was selected due to its favorable low-Reynolds-number lift-to-drag characteristics. The final blade radius was 5.9 inches, and the span was discretized to calculate chord length and pitch angle distributions that would maintain near-optimal angles of attack along the blade. MATLAB scripts were used to vary tip-speed ratio and identify a geometry that maximized the power coefficient while remaining structurally sound. Structural analyses confirmed that the blade could withstand bending moments and torque loads at wind speeds up to 8.3 m/s and rotational speeds approaching 1900 RPM without failure. The resulting geometry was modeled in CAD and manufactured via 3D printing.
+The blade length was limited to less than 6 inches, with a maximum allowable operating speed of 2000 RPM and testing restricted to wind speeds below 10 m/s to ensure compatability with the lab's wind tunnel. The design was optimized for a target operating condition of approximately 800 RPM at a wind speed of 5.95 m/s and evaluated in a wind tunnel in an environment modeled by a Weibull distribution. Our design must be modeled using CAD software of our choice and properly prepared to be SLA printed with Accura 25.
 
 ### Design Process
 
-The design process was driven by blade element momentum (BEM) theory and focused on maintaining near-optimal aerodynamic conditions along the blade span. Key decisions included selecting the NACA 4412 airfoil for its reliable low-Reynolds-number performance and implementing controlled taper and twist to reduce stall near the root and improve lift-to-drag behavior. The blade span was discretized, and MATLAB scripts were used to compute chord length and pitch angle at each radial station for a target operating point of approximately 800 RPM. 
+Our design process was informed by blade element momentum (BEM) theory and focused on calculating optimal aerodynamic conditions along the span of the blade. We selected a NACA 4412 airfoil cross section due to its favorable low-Reynolds-number lift to drag ratio proven in earlier experiments. The blade span was discretized, and a MATLAB script was used to compute chord length and pitch angle at each radial station for a target operating point of approximately 800 RPM. Structural analyses calculated by hand confirmed that the blade could withstand bending moments and torque loads at wind speeds up to 8.3 m/s and rotational speeds approaching 1900 RPM without failure. The resulting geometry was modeled in CAD and manufactured via outsorced SLA printing in the Accura 25 material.
 
 <img src="{{ '/assets/images/matlab.png' | relative_url }}" 
      alt="Matlab"
      width="75%">
 
-Structural checks were then performed to verify that bending moments, torque, and stresses remained within acceptable limits. The finalized geometry was transferred to CAD software and manufactured using 3D printing, acknowledging potential performance impacts from surface roughness.
 
 ### Testing Summary
 
@@ -30,6 +28,9 @@ Structural checks were then performed to verify that bending moments, torque, an
 
 Experimental testing was conducted in the “Big Blue” wind tunnel using a pitot-static tube to measure flow velocity, a tachometer to measure rotational speed, and a torque brake to apply and measure shaft torque. Power was calculated and recorded across wind speeds ranging from approximately 5.9 m/s to 8.3 m/s. The turbine achieved a peak measured power of 0.8335 W at a wind speed of 8.31 m/s and a rotational speed of approximately 1270 RPM, corresponding to a maximum power coefficient of about 5.24%. When weighted across the Weibull distribution, the expected power output at the design speed of 800 RPM was 0.0573 W, with a maximum expected output of 0.0628 W occurring near 908 RPM. Although the experimental results were significantly lower than the predicted 2.18 W from the theoretical model, the final design improved power output by more than 200% compared to the Lab 4 turbine, demonstrating a successful and data-supported design improvement.
 
+<img src="{{ '/assets/images/Prediction.png' | relative_url }}" 
+     alt="Blades"
+     width="75%">
 
 ### Personal Contribution
 
