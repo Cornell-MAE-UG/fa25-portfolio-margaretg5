@@ -1,6 +1,6 @@
 ---
 layout: project
-title: MAE 4300 Final Write Up
+title: MAE 4300 Final Essay
 description: Final Report in MAE 4300
 image: /assets/images/737.jpg
 ---
