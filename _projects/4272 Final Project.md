@@ -24,12 +24,12 @@ Our design process was informed by blade element momentum (BEM) theory and focus
 
 <img src="{{ '/assets/images/blades.png' | relative_url }}" 
      alt="Blades"
-     width="100%">
+     width="75%">
 
 Experimental testing was conducted in the “Big Blue” wind tunnel using a pitot-static tube to measure flow velocity, a tachometer to measure rotational speed, and a torque brake to apply and measure shaft torque. Power was calculated and recorded across wind speeds ranging from approximately 5.9 m/s to 8.3 m/s. The turbine achieved a peak measured power of 0.8335 W at a wind speed of 8.31 m/s and a rotational speed of approximately 1270 RPM, corresponding to a maximum power coefficient of about 5.24%. When weighted across the Weibull distribution, the expected power output at the design speed of 800 RPM was 0.0573 W, with a maximum expected output of 0.0628 W occurring near 908 RPM. Although the experimental results were significantly lower than the predicted 2.18 W from the theoretical model, the final design improved power output by more than 200% compared to the Lab 4 turbine, demonstrating a successful and data-supported design improvement.
 
 <img src="{{ '/assets/images/Prediction.png' | relative_url }}" 
-     alt="Blades"
+     alt="Prediction"
      width="75%">
 
 ### Personal Contribution
@@ -39,5 +39,5 @@ This assignment was completed by myself and two group members. While we were all
 
 <img src="{{ '/assets/images/cadcover.png' | relative_url }}" 
      alt="CAD Model"
-     width="120%">
+     width="100%">
 
